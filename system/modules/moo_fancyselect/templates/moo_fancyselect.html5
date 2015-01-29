@@ -1,0 +1,17 @@
+<?php
+
+$GLOBALS['TL_CSS'][] = 'system/modules/moo_fancyselect/assets/FancySelect.css||static';
+$GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/moo_fancyselect/assets/FancySelect.min.js|static';
+
+?>
+
+<script>
+(function($) {
+  "use strict";
+  window.addEvent('domready', function() {
+    $$('select').fancySelect({
+      // put your custom configuration here
+    });
+  });
+})(document.id);
+</script>

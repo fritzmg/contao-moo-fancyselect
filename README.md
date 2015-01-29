@@ -1,4 +1,4 @@
-Contao jQuery selectBox
+Contao MooTools FancySelect
 ===================
 
 Simple extension to provide the [MooTools FancySelect plugin](http://mootools.net/forge/p/fancyselect) in Contao.
